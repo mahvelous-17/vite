@@ -1,4 +1,5 @@
 import './App.css'
+import pizza from './assets/pizza.png'
 
 function App() {
 
