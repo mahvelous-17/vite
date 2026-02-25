@@ -23,7 +23,7 @@ function App() {
 
       <p>My favorite color is {color}</p>
 
-      <img src={pizza} width = "200" height = "200"/>
+      <img src={pizza} width = "500" height = "500"/>
     </div>
 
   );
