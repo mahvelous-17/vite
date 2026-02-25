@@ -22,6 +22,8 @@ function App() {
 
       <p>My favorite color is {color}</p>
 
+      <img src="pizza.png" alt="A delicious pizza" />
+
     </div>
 
   );
