@@ -4,6 +4,7 @@ import Practice from './practice'
 import Practice from './components/Header.jsx';
 import Practice from './components/Footer.jsx';
 import Practice from './components/Food.jsx';
+import Practice from './components/Card.jsx';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
         <food />
       </main>
       <h1>Hello, React!</h1>
-      
+
       <h2>My name is {yourName}</h2>
 
       <p>I’m learning React in {currentYear}.</p>
