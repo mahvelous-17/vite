@@ -1,5 +1,6 @@
 import './App.css'
 import pizza from './assets/pizza.png'
+import './practice.jsx'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
   return (
 
     <div>
-
+      <Practice />
       <h1>Hello, React!</h1>
 
       <h2>My name is {yourName}</h2>
