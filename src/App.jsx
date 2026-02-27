@@ -1,6 +1,6 @@
 import './App.css'
 import pizza from './assets/pizza.png'
-import './practice.jsx'
+import Practice from './practice'
 
 function App() {
 
