@@ -5,6 +5,7 @@ import Footer from './components/Footer.jsx';
 import Food from './components/Food.jsx';
 import Card from './components/Card.jsx';
 import Sen from './components/Sen.jsx';
+import Interest from './components/Interest.jsx';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Food />
       </main>
      <Card />
+     <Interest />
      <Sen />
 
       <Footer />

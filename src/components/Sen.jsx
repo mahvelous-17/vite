@@ -1,14 +1,33 @@
 function Sen() {
     const title = "Hi my name is Andrew";
-    const description = "This is ABOUT ME muhahahaa";
-    const emoji = " 🐘 ";
+    const description = "I love Toothless";
+   const emoji = `⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢀⡞⠉⢱⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢸⠀⠀⠀⢳⠀⠀⠀⠀⠀⠀⠀⠀⢠⠞⠉⢣⠀⠀⠀⠀
+⠀⠀⠀⠀⢻⠀⠀⠀⢸⠁⢀⠀⠀⠀⠀⠀⠀⡾⠀⠀⠘⡆⠀⠀⠀
+⠀⠀⠀⠀⠘⡇⠀⠀⢸⢠⣏⣹⣄⣀⣀⡞⢳⡇⠀⠀⠀⢿⠀⠀⠀
+⠀⠀⠀⠀⣀⣳⣀⡴⠋⠁⠀⠀⠀⢈⣿⡉⠙⢿⡀⠀⠀⡟⠀⠀⠀
+⠀⠀⠀⠀⢻⣘⡟⠀⠀⠀⠀⠀⠀⠀⣿⠄⠀⠀⠹⣄⣸⠁⠀⠀⠀
+⠀⡀⠀⠰⡗⠿⠀⣴⣾⡶⢶⣀⠀⢀⣟⠂⢀⣤⣄⣹⢳⠂⠀⠀⠀
+⠀⡷⡀⠀⠹⣾⠸⡿⣿⣿⣿⢿⠀⢸⡇⢠⣷⣿⢹⢹⢿⠀⠀⠀⠀
+⠘⠳⡌⠙⠚⣏⠣⣙⠺⠯⠭⠼⠀⢈⡁⢾⣿⠯⢞⡿⠊⠀⠀⠀⠀
+⠀⠈⠉⢳⣄⣘⣲⠞⠙⠲⠤⢄⣀⣀⣁⣀⡠⢴⡾⢿⡄⠀⠀⠀⠀
+⠀⠀⠀⣈⡤⠖⠟⠀⠀⠀⠀⠀⠀⠀⣸⡆⠀⡞⠀⢈⣷⣦⢦⣤⡄
+⠀⣠⠞⢁⠀⠀⡆⠀⠀⢾⠀⠀⠀⡼⢹⣁⣄⢸⡴⣮⠻⣶⣾⡯⠀
+⣰⠇⠀⢨⣿⡿⢧⠀⠀⢹⡀⢀⡞⠁⢿⠀⢹⣩⠜⠙⠚⠛⠉⠀⠀
+⠘⣆⠀⢶⠃⠀⠈⣇⠀⠈⢷⠋⠀⠀⠘⣆⡼⠁⠀⠀⠀⠀⠀⠀⠀
+⠀⠈⠳⠬⣃⣤⠴⢧⣤⣤⠼⡟⠋⠻⠋⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠈⠁⠈⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀`;
 
     return (
-        <div className="card">
-            <span style ={{fontSize: "48px"}}>{emoji}</span>
+        <div className="Sen">
             <h3>{title}</h3>
             <p>{description}</p>
+            <pre style={{ fontSize: "12px", lineHeight: "1" }}>
+                {emoji}
+            </pre>
         </div>
     );
 }
+
 export default Sen;
