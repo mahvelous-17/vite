@@ -1,10 +1,11 @@
 import './App.css'
 import pizza from './assets/pizza.png'
 import Practice from './practice'
-import Practice from './components/Header.jsx';
-import Practice from './components/Footer.jsx';
-import Practice from './components/Food.jsx';
-import Practice from './components/Card.jsx';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
+import Food from './components/Food.jsx';
+import Card from './components/Card.jsx';
+import sen from './components/sen.jsx';
 
 
 function App() {
@@ -18,30 +19,20 @@ function App() {
   return (
 
     <div>
-      <header />
+      <Header />
       <Practice />
       <main>
         <h2>Welcome to my website!</h2>
-        <food />
+        <Food />
       </main>
-      <h1>Hello, React!</h1>
+     <Card />
+     <Sen />
 
-      <h2>My name is {yourName}</h2>
-
-      <p>I’m learning React in {currentYear}.</p>
-
-      <p>This is my first React component!</p>
-
-      <p>My favorite color is {color}</p>
-
-      <img src={pizza} width = "500" height = "500" alt="a yummay pizza"/>
-
-      <footer />
+      <Footer />
     </div>
 
   );
 
 }
-
 
 export default App;
