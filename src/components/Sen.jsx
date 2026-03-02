@@ -1,4 +1,4 @@
-function Card() {
+function Sen() {
     const title = "Hi my name is Andrew";
     const description = "This is ABOUT ME muhahahaa";
     const emoji = " 🐘 ";
@@ -11,4 +11,4 @@ function Card() {
         </div>
     );
 }
-export default Card;
+export default Sen;
