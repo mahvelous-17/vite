@@ -37,7 +37,7 @@ function Sen() {
           {description}
         </p>
   
-        <pre className="text-xs text-olive-100 overflow-x-auto">
+        <pre className="text-xs text-gray-300 ">
           {emoji}
         </pre>
   
