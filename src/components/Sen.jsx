@@ -21,7 +21,7 @@ function Sen() {
     return (
       <div className="bg-gray-900
        border-2 
-       border-purple-100
+       border-olive-100
         rounded-2xl
          shadow-lg hover:shadow-2xl 
          hover:bg-gray-800
@@ -37,7 +37,7 @@ function Sen() {
           {description}
         </p>
   
-        <pre className="text-xs text-purple-100 overflow-x-auto">
+        <pre className="text-xs text-olive-100 overflow-x-auto">
           {emoji}
         </pre>
   
