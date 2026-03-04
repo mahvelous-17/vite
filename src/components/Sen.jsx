@@ -21,7 +21,7 @@ function Sen() {
     return (
       <div className="bg-gray-900 border-2 border-black-500 rounded-2xl shadow-lg hover:shadow-2xl hover:bg-gray-800 transition-all duration-300 p-6 m-6 max-w-md text-center mx-auto">
         
-        <h3 className="text-3xl font-bold text-black-400 mb-4">
+        <h3 className="text-3xl font-bold text-green-400 mb-4">
           {title}
         </h3>
   
