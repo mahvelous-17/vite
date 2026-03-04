@@ -29,7 +29,7 @@ function Sen() {
           p-6 m-6 max-w-md
            text-center mx-auto">
         
-        <h3 className="text-3xl font-bold text-green-400 mb-4">
+        <h3 className="text-3xl font-bold text-green-900 mb-4">
           {title}
         </h3>
   
@@ -37,7 +37,7 @@ function Sen() {
           {description}
         </p>
   
-        <pre className="text-xs text-purple-400 overflow-x-auto">
+        <pre className="text-xs text-purple-900 overflow-x-auto">
           {emoji}
         </pre>
   
