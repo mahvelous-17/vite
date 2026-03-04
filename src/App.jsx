@@ -18,12 +18,13 @@ function App() {
 
   return (
 
-<h1 className="text-4xl font-bold text-blue-600
-	bg-yellow-100 p-8 rounded-xl">
-  Tailwind is working!
 
+    
     <div>
       <Header />
+      <h1 className="text-4xl font-bold text-blue-600
+	bg-yellow-100 p-8 rounded-xl">
+  Tailwind is working!
       <Practice />
       <main>
         <h2>Welcome to my website!</h2>
