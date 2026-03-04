@@ -21,7 +21,7 @@ function Sen() {
     return (
       <div className="bg-gray-900
        border-2 
-       border-green-400
+       border-green-100
         rounded-2xl
          shadow-lg hover:shadow-2xl 
          hover:bg-gray-800
